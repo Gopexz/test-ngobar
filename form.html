@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar form</title>
+</head>
+<body>
+    <form action="#">
+        <table border="0">
+            <tr>
+                <td><label for="username">Username :</label></td>
+                <td><input type="text" id="username"></td>
+                <!-- <td>aaaaa</td> -->
+            </tr>
+            <tr>
+                <td><label for="password">Password :</label></td>
+                <td><input type="password" id="password"></td>
+                <!-- <td>aaaaaaa</td> -->
+            </tr>
+            <tr>
+                <td><label for="jeniskelamin"></label>Jenis Kelamin</td>
+                <td colspan="3"><input type="radio" name="jeniskelamin" id="pria">Pria <input type="radio" name="jeniskelamin" id="wanita"> Wanita</td>
+                <!-- <td>ssss</td> -->
+            </tr>
+            <tr>
+                <td>Pilihan Checkbox : </td>
+                <td colspan="2"><label for="checkbox1"></label><input type="checkbox">checkbox1 <label for="checkbox2"></label><input type="checkbox">checkbox2</td>
+                <!-- <td>ssss</td> -->
+            </tr>
+            <tr>
+                <td>Combo Box</td>
+                <td>
+                    <select name="kota" id="kota">
+                        <option value="Jakarta">Kota Jakarta</option>
+                        <option value="Bandung">Kota Bandung</option>
+                        <option value="Semarang">Kota Semarang</option>
+                </select>
+                </td>
+            </tr>
+            <tr>
+                <td>Keterangan</td>
+                <td><textarea name="keterangan" id="keteranganid" cols="30" rows="10"></textarea></td>
+            </tr>
+            <tr>
+                <td colspan="2"><center><button type="submit">Kirim</button></center></td>
+            </tr>
+        </table>
+    </form>
+</body>
+</html>
